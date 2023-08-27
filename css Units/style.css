@@ -1,0 +1,18 @@
+/* % -> parent'ının içerisinde yüzde kaç yer kapladığı */
+/* px -> pixel unit her ekranda aynı yer kaplıyor */
+/* em -> parent'ının font-size'ına göre parent -> 16px -> 1em -> 16px /// 2em -> 32px */
+/* rem -> root element'in (html)'in font size'ına göre. 1rem -> 16px */
+/* vw -> viewport width -> ekranın gözüken kısmının genişliğinin yüzdesi */
+/* vh -> viewport height -> ekranın gözüken kısmının yüksekliğinin yüzdesi */
+
+.container{
+    border: 2px solid green;
+    font-size: 24px;
+    min-height: 100vh;
+}
+
+.ic-div{
+    border: 2px solid magenta;
+    padding: 2em;
+    font-size: 1rem;
+}

@@ -1,0 +1,46 @@
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+.card{
+    background-color: darkred;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    width: 400px;
+
+    position: relative;
+    margin: 40px auto;
+}
+
+.tur{
+    width: 200px;
+    background-color: chartreuse;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 20px;
+    width: fit-content;
+
+    position: absolute;
+    top: -15px;
+    right: -30px;
+
+    transform: rotate(20deg);
+}
+
+
+.flex-container{
+    border: 2px solid green;
+    padding: 1em;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.flex-container > div{
+    border: 2px solid magenta;
+    width: 150px;
+}
+

@@ -1,0 +1,63 @@
+/* h1 -> selector */
+/* color -> property */
+/* blue -> property value  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #fff8dc;
+    font-size: 24px;
+    background-color: black;
+
+    width: 500px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 40px;
+}
+
+.title{
+    color: lime;
+}
+
+h2{
+    background-color: blue;
+    width: 300px;
+    display: inline-block;
+}
+
+p{
+    margin: 150px auto 0 auto;
+    text-align: center;
+    width: 150px;
+}
+
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.follow-btn{
+    display: inline-block;
+    border: 3px solid blue;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    background-color: transparent;
+    margin: 50px;
+    padding: 15px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.follow-btn:hover{
+    background-color: blue;
+    color: white;
+}
